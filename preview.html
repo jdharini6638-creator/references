@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>References</title>
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* One continuous document — no forced page break */
+  .document {
+    width: 100%;
+    max-width: 794px;
+    margin: 0 auto;
+    padding: 57px 64px;
+  }
+
+  h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    color: #12243b;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 700;
+  }
+
+  h2 {
+    margin: 0 0 10px;
+    color: #24456d;
+    font-size: 19px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+
+  .section {
+    margin-bottom: 10px;
+  }
+
+  .ref {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.25;
+  }
+
+  .label {
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+
+  .citation {
+    margin: 0;
+  }
+
+  .meta {
+    margin-top: 2px;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  @media screen {
+    body {
+      padding: 20px 0;
+      background: #e9e9e9;
+    }
+
+    .document {
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(0,0,0,.12);
+      min-height: 100vh;
+    }
+  }
+
+  @media print {
+    body {
+      background: #fff;
+    }
+
+    .document {
+      max-width: none;
+      padding: 15mm 17mm;
+      box-shadow: none;
+    }
+  }
+</style>
+</head>
+
+<body>
+<main class="document">
+
+  <h1>REFERENCES</h1>
+
+  <div class="section">
+    <h2>1. Clinical Trial Context</h2>
+    <div class="ref">
+      <div class="label">NCT05416125</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>2. Key Biological Target References</h2>
+
+    <div class="ref">
+      <div class="label">HTR2A</div>
+      <div class="citation">
+        Shong KE, Oh CM, Namkung J, Park S, Kim H. Serotonin Regulates De Novo Lipogenesis in Adipose Tissues through
+        Serotonin Receptor 2A. <em>Endocrinology and Metabolism (Seoul).</em> 2020;35(2):470–479.
+      </div>
+      <div class="meta">• PMID: 32615731 &nbsp;&nbsp; • PMCID: PMC7386107 &nbsp;&nbsp; • DOI: 10.3803/EnM.2020.35.2.470</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">SLC18A2 / VMAT2</div>
+      <div class="citation">
+        Xu Y, Lu Y, Xu P, et al. VMAT2-Mediated Neurotransmission from Midbrain Leptin Receptor Neurons in Feeding Regulation.
+        <em>eNeuro.</em> 2017;4(3):ENEURO.0083-17.2017.
+      </div>
+      <div class="meta">• PMID: 28560316 &nbsp;&nbsp; • PMCID: PMC5446488 &nbsp;&nbsp; • DOI: 10.1523/ENEURO.0083-17.2017</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Databases Used</h2>
+
+    <div class="ref">
+      <div class="label">IMPPAT</div>
+      <div class="citation">
+        Vivek-Ananth RP, Mohanraj K, Sahoo AK, Samal A. IMPPAT 2.0: An Enhanced and Expanded Phytochemical Atlas of Indian
+        Medicinal Plants. <em>ACS Omega.</em> 2023;8(9):8827–8845.
+      </div>
+      <div class="meta">• DOI: 10.1021/acsomega.3c00156</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">SwissTargetPrediction</div>
+      <div class="citation">
+        Gfeller D, Grosdidier A, Wirth M, Daina A, Michielin O, Zoete V. SwissTargetPrediction: a web server for target prediction of
+        bioactive small molecules. <em>Nucleic Acids Research.</em> 2014;42(W1):W32–W38.
+      </div>
+      <div class="meta">• DOI: 10.1093/nar/gku293</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">Open Targets Platform</div>
+      <div class="citation">
+        Ochoa D, Hercules A, Carmona M, et al. Open Targets Platform: supporting systematic drug–target identification and
+        prioritisation. <em>Nucleic Acids Research.</em> 2021;49(D1):D1302–D1310.
+      </div>
+      <div class="meta">• DOI: 10.1093/nar/gkaa1027</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">NCBI Gene Expression Omnibus (GEO)</div>
+      <div class="citation">
+        Barrett T, Troup DB, Wilhite SE, et al. NCBI GEO: mining tens of millions of expression profiles—database and tools update.
+        <em>Nucleic Acids Research.</em> 2007;35(Database issue):D760–D765.
+      </div>
+      <div class="meta">• DOI: 10.1093/nar/gkl887</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">GEO Datasets Used in Our Study:</div>
+      GSE234889, GSE306336, GSE308884, GSE314750, GSE317489, GSE337548
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>4. Network Analysis and Molecular Docking Tools</h2>
+
+    <div class="ref">
+      <div class="label">Cytoscape</div>
+      <div class="citation">
+        Shannon P, Markiel A, Ozier O, et al. Cytoscape: a software environment for integrated models of biomolecular interaction
+        networks. <em>Genome Research.</em> 2003;13(11):2498–2504.
+      </div>
+      <div class="meta">• DOI: 10.1101/gr.1239303</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">AutoDock Vina</div>
+      <div class="citation">
+        Trott O, Olson AJ. AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient
+        optimization, and multithreading. <em>Journal of Computational Chemistry.</em> 2010;31(2):455–461.
+      </div>
+      <div class="meta">• DOI: 10.1002/jcc.21334</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">AutoDock Vina 1.2.0</div>
+      <div class="citation">
+        Eberhardt J, Santos-Martins D, Tillack AF, Forli S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and
+        Python Bindings. <em>Journal of Chemical Information and Modeling.</em> 2021;61(8):3891–3898.
+      </div>
+      <div class="meta">• DOI: 10.1021/acs.jcim.1c00203</div>
+    </div>
+
+    <div class="ref">
+      <div class="label">BIOVIA Discovery Studio Visualizer</div>
+      <div class="citation">
+        BIOVIA, Dassault Systèmes. Discovery Studio Visualizer — used for visualization and analysis of protein–ligand interactions.
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>5. Molecular Docking Workflow Reference</h2>
+
+    <div class="ref">
+      <div class="label">TeachOpenCADD (T015 – Protein-Ligand Docking)</div>
+      <div class="citation">
+        Sydow D, Rodríguez-Guerra J, Kimber TB, Schaller D, Taylor CJ, Chen Y, Leja M, Misra S, Wichmann M, Ariamajd A,
+        Volkamer A. TeachOpenCADD 2022: Open Source and FAIR Python Pipelines to Assist in Structural Bioinformatics and
+        Chemoinformatics Research. <em>Nucleic Acids Research.</em> 2022;50(W1):W753–W760.
+      </div>
+      <div class="meta">• DOI: 10.1093/nar/gkac267</div>
+    </div>
+  </div>
+
+</main>
+</body>
+</html>
